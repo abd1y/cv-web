@@ -1,6 +1,7 @@
 import axios from 'axios'
-
 const defaultApiBase = 'https://cv-web-api.onrender.com/api/v1'
+  ? 'https://cv-web-api.onrender.com/api/v1'
+  : 'https://cv-web-api.onrender.com/api/v1'
 const API_BASE = (import.meta.env.VITE_API_BASE_URL || defaultApiBase).replace(/\/+$/, '')
 let csrfToken = ''
 let onAuthExpired = null
