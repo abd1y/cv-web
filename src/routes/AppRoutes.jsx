@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import PublicLayout from '../layouts/PublicLayout'
 import AdminLayout from '../layouts/AdminLayout'
-import HomePage from '../pages/public/HomePage'https://cv-web-api.onrender.com
+import HomePage from '../pages/public/HomePage'
 import ProjectDetailsPage from '../pages/public/ProjectDetailsPage'
 import NotFoundPage from '../pages/public/NotFoundPage'
 import { Spinner } from '../components/ui/ui'
